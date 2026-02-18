@@ -38,23 +38,7 @@ Private Sub B4XPage_Created (Root1 As B4XView)
 	Dim bRunning As B4XBitmap=LoadBitmapResize(File.DirAssets,"running.png", 20dip, 20dip, True)
 	Dim bRound As B4XBitmap=LoadBitmapResize(File.DirAssets,"round.png", 20dip, 20dip, True)
 	Dim bCircle As B4XBitmap=LoadBitmapResize(File.DirAssets,"circle.png", 20dip, 20dip, True)
-	'Dim bC As BitmapCreator
-	'bC.Initialize(ImageView1.Width, ImageView1.Height)
-	'bC.DrawLine(5dip, 15dip, 5dip, bC.mHeight, xui.Color_Red, 1dip)
-	
-	'Dim rct As B4XRect
-	'rct.Initialize(0dip, 0dip, 10dip, 10dip)
-	
-	'bC.DrawBitmap(bRunning, rct, True)
-	
-  ' bc.DrawCircle(10dip, 10dip, 5dip, xui.Color_Red, True, 1dip)
-  
-  	'Dim item_timeLine As TimelineBox
-	'item_timeLine.Initialize(Me, "", Panel3.Width, Panel3.Height)
-	
-	'Panel3.AddView(item_timeLine.GetView, 0, 0, Panel3.Width, Panel3.Height)
-	
-	'ImageView1.Bitmap = bC.Bitmap
+
 	
 	Dim time_line_content As List
 	time_line_content.Initialize
