@@ -18,7 +18,7 @@ Sub Class_Globals
 	Private Panel1 As Panel
 	Private Panel3 As Panel
 	Private scrollLv As ScrollView
-	Type TimelineItem(icon As B4XBitmap, title As String, des As String, approve As Boolean, time As Long, color as int)
+	Type TimelineItem(icon As B4XBitmap, title As String, des As String, approve As Boolean, time As Long, color As Int)
 	Private lblTitle As Label
 	Private lblTime As Label
 	Private lblContent As Label
@@ -121,3 +121,4 @@ End Sub
 Private Sub Button1_Click
 	xui.MsgboxAsync("Hello world!", "B4X")
 End Sub
+

@@ -10,6 +10,6 @@ ModuleClosedNodes0=1,2,6
 ModuleClosedNodes1=1
 ModuleClosedNodes2=1
 ModuleClosedNodes3=
-NavigationStack=TimelineBox,DesignerCreateView,52,0,TimelineBox,setBitmap,95,0,TimelineBox,Class_Globals,17,5,B4XMainPage,Button1_Click,124,0,B4XMainPage,Class_Globals,14,3,TimelineBox,HideButton,95,2,Visual Designer,timeline_item.bal,-100,6,TimelineBox,setColor,57,6,TimelineBox,Initialize,43,6,B4XMainPage,B4XPage_Created,30,6
+NavigationStack=B4XMainPage,Class_Globals,14,3,Visual Designer,timeline_item.bal,-100,6,TimelineBox,setColor,57,6,B4XMainPage,B4XPage_Created,30,6,B4XMainPage,Button1_Click,118,0,TimelineBox,HideButton,100,2,TimelineBox,drawDottedLine,106,0,TimelineBox,GetView,93,0,TimelineBox,Class_Globals,13,6,TimelineBox,Initialize,33,6,TimelineBox,setTime,77,0
 SelectedBuild=0
 VisibleModules=1,3

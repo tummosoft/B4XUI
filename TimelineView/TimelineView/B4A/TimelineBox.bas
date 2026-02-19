@@ -22,6 +22,7 @@ Sub Class_Globals
 	Private lblContent As Label
 	Private lblTime As Label
 	Private pnlButtonGroup As Panel
+	Private cv As Canvas
 End Sub
 
 Public Sub Initialize (Callback As Object, EventName As String, width As Int, height As Int)
@@ -37,9 +38,14 @@ Public Sub Initialize (Callback As Object, EventName As String, width As Int, he
 	mBase.AddView(imvLine, 10dip, 20dip,lineWidth,height)
 	imvTop.Color = Colors.Magenta
 	imvLine.Color = Colors.Red
+	
+	cv.Initialize(imvLine)
+	
 	'pnlWrapper.Color = Colors.Gray
 	Dim bRunning As B4XBitmap=LoadBitmapResize(File.DirAssets,"running.png", 15dip, 15dip, True)
 	imvTop.Bitmap = bRunning
+
+	drawDottedLine(0, 0, 0, imvLine.Height, Colors.LightGray, 5dip)
 
 	pnlContent.Initialize("")
 	mBase.AddView(pnlContent, 20dip, 20dip, width - 30dip,height - 30dip)
@@ -102,4 +108,27 @@ End Sub
 
 Public Sub HideButton()
 	pnlButtonGroup.Visible = False
+End Sub
+
+Private Sub drawDottedLine(x1 As Float, y1 As Float, x2 As Float, y2 As Float, foreColor As Int, segmentSize As Int)
+	Dim lineLength As Float = Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2))
+	Dim nSegments As Int = (lineLength + .5 * segmentSize) / (1.5 * segmentSize)
+	Dim fract As Float = (lineLength + .5 * segmentSize) / lineLength
+
+	Dim xIncr As Float = fract * (x2 - x1) / nSegments
+	Dim xIncrLine As Float = .6667 * xIncr
+	Dim yIncr As Float = fract * (y2 - y1) / nSegments
+	Dim yIncrLine As Float =  .6667 * yIncr
+    
+	For i = 0 To nSegments - 1
+		Dim xx1 As Float = x1 + i * xIncr
+		Dim yy1 As Float = y1 + i * yIncr
+		Dim xx2 As Float = xx1 + xIncrLine
+		Dim yy2 As Float = yy1 + yIncrLine
+		If i = nSegments - 1 Then
+			cv.DrawLine(xx1, yy1, x2, y2, foreColor, lineWidth)
+		Else
+			cv.DrawLine(xx1, yy1, xx2, yy2, foreColor, lineWidth)
+		End If
+	Next
 End Sub
