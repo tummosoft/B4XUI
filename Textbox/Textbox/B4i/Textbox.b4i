@@ -8,7 +8,7 @@ Module1=|relative|..\B4XMainPage
 NumberOfFiles=1
 NumberOfLibraries=2
 NumberOfModules=1
-Version=7.8
+Version=6.5
 @EndOfDesignText@
 'Code module
 #Region  Project Attributes 
