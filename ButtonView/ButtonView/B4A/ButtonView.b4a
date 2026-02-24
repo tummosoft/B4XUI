@@ -1,17 +1,24 @@
 ﻿Build1=Default,b4a.example
-File1=MainPage.bal
+File1=cloud-server.png
+File2=icons8-pdf-48.png
+File3=icons8-photo-94.png
+File4=MainPage.bal
 FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
 Group=Default Group
 Library1=b4xpages
 Library2=core
 Library3=bitmapcreator
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="35"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
 Module1=|relative|..\B4XMainPage
-Module2=Starter
-Module3=TextboxView
-NumberOfFiles=1
+Module2=BitmapButton
+Module3=RoundButton
+Module4=Starter
+NumberOfFiles=4
 NumberOfLibraries=3
-NumberOfModules=3
+NumberOfModules=4
 Version=13.4
 @EndOfDesignText@
 #Region  Project Attributes 
