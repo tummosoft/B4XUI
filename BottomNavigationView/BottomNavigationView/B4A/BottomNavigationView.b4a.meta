@@ -13,6 +13,6 @@ ModuleClosedNodes1=1
 ModuleClosedNodes2=
 ModuleClosedNodes3=
 ModuleClosedNodes4=1
-NavigationStack=NaviButton,Class_Globals,17,6,NaviButton,Base_Resize,97,0,NaviButton,setBadge,100,6,BottomNavigationView,nvButton_Click,90,6,BottomNavigationView,Class_Globals,6,2,BottomNavigationView,Build,49,6,BottomNavigationView,Acticve,67,4,NaviButton,Initialize,43,6,B4XMainPage,B4XPage_Created,60,5,B4XMainPage,BottomNavigationView1_ItemClick,71,0,B4XMainPage,Class_Globals,7,0
+NavigationStack=NaviButton,setBadge,100,6,BottomNavigationView,nvButton_Click,90,6,BottomNavigationView,Class_Globals,6,2,BottomNavigationView,Build,49,6,BottomNavigationView,Acticve,67,4,NaviButton,Initialize,43,6,B4XMainPage,BottomNavigationView1_ItemClick,71,0,B4XMainPage,Class_Globals,7,0,B4XMainPage,Initialize,17,0,B4XMainPage,B4XPage_Created,23,5
 SelectedBuild=0
 VisibleModules=1,3,2

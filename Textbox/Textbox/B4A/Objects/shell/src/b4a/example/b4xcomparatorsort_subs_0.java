@@ -13,7 +13,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xcomparatorsort) ","b4xcomparatorsort",8,__ref.getField(false, "ba"),__ref,4);
+		Debug.PushSubsStack("Initialize (b4xcomparatorsort) ","b4xcomparatorsort",9,__ref.getField(false, "ba"),__ref,4);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xcomparatorsort","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -31,7 +31,7 @@ finally {
 		}}
 public static RemoteObject  _partition(RemoteObject __ref,RemoteObject _data,RemoteObject _startindex,RemoteObject _length,RemoteObject _pivotindex,RemoteObject _comparator) throws Exception{
 try {
-		Debug.PushSubsStack("Partition (b4xcomparatorsort) ","b4xcomparatorsort",8,__ref.getField(false, "ba"),__ref,30);
+		Debug.PushSubsStack("Partition (b4xcomparatorsort) ","b4xcomparatorsort",9,__ref.getField(false, "ba"),__ref,30);
 if (RapidSub.canDelegate("partition")) { return __ref.runUserSub(false, "b4xcomparatorsort","partition", __ref, _data, _startindex, _length, _pivotindex, _comparator);}
 RemoteObject _pivotvalue = RemoteObject.declareNull("Object");
 RemoteObject _l = RemoteObject.createImmutable(0);
@@ -91,7 +91,7 @@ finally {
 		}}
 public static RemoteObject  _quicksort(RemoteObject __ref,RemoteObject _data,RemoteObject _startindex,RemoteObject _length,RemoteObject _comparator) throws Exception{
 try {
-		Debug.PushSubsStack("QuickSort (b4xcomparatorsort) ","b4xcomparatorsort",8,__ref.getField(false, "ba"),__ref,21);
+		Debug.PushSubsStack("QuickSort (b4xcomparatorsort) ","b4xcomparatorsort",9,__ref.getField(false, "ba"),__ref,21);
 if (RapidSub.canDelegate("quicksort")) { return __ref.runUserSub(false, "b4xcomparatorsort","quicksort", __ref, _data, _startindex, _length, _comparator);}
 RemoteObject _pivotindex = RemoteObject.createImmutable(0);
 RemoteObject _r = RemoteObject.createImmutable(0);
@@ -129,7 +129,7 @@ finally {
 		}}
 public static RemoteObject  _sort(RemoteObject __ref,RemoteObject _data,RemoteObject _comparator) throws Exception{
 try {
-		Debug.PushSubsStack("Sort (b4xcomparatorsort) ","b4xcomparatorsort",8,__ref.getField(false, "ba"),__ref,12);
+		Debug.PushSubsStack("Sort (b4xcomparatorsort) ","b4xcomparatorsort",9,__ref.getField(false, "ba"),__ref,12);
 if (RapidSub.canDelegate("sort")) { return __ref.runUserSub(false, "b4xcomparatorsort","sort", __ref, _data, _comparator);}
 Debug.locals.put("Data", _data);
 Debug.locals.put("Comparator", _comparator);
@@ -150,7 +150,7 @@ finally {
 		}}
 public static RemoteObject  _swap(RemoteObject __ref,RemoteObject _data,RemoteObject _startindex,RemoteObject _i1,RemoteObject _i2) throws Exception{
 try {
-		Debug.PushSubsStack("Swap (b4xcomparatorsort) ","b4xcomparatorsort",8,__ref.getField(false, "ba"),__ref,44);
+		Debug.PushSubsStack("Swap (b4xcomparatorsort) ","b4xcomparatorsort",9,__ref.getField(false, "ba"),__ref,44);
 if (RapidSub.canDelegate("swap")) { return __ref.runUserSub(false, "b4xcomparatorsort","swap", __ref, _data, _startindex, _i1, _i2);}
 RemoteObject _o = RemoteObject.declareNull("Object");
 Debug.locals.put("Data", _data);

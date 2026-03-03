@@ -16,11 +16,13 @@ public static RemoteObject _xui = RemoteObject.declareNull("anywheresoftware.b4a
 public static RemoteObject _imageview1 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ImageViewWrapper");
 public static RemoteObject _bc = RemoteObject.declareNull("b4a.example.bitmapcreator");
 public static RemoteObject _lblstatus = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _textboxview1 = RemoteObject.declareNull("b4a.example.textboxview");
+public static RemoteObject _textboxview2 = RemoteObject.declareNull("b4a.example.textboxview");
 public static b4a.example.main _main = null;
 public static b4a.example.starter _starter = null;
 public static b4a.example.b4xpages _b4xpages = null;
 public static b4a.example.b4xcollections _b4xcollections = null;
 public static Object[] GetGlobals(RemoteObject _ref) throws Exception {
-		return new Object[] {"bc",_ref.getField(false, "_bc"),"ImageView1",_ref.getField(false, "_imageview1"),"lblStatus",_ref.getField(false, "_lblstatus"),"Root",_ref.getField(false, "_root"),"xui",_ref.getField(false, "_xui")};
+		return new Object[] {"bc",_ref.getField(false, "_bc"),"ImageView1",_ref.getField(false, "_imageview1"),"lblStatus",_ref.getField(false, "_lblstatus"),"Root",_ref.getField(false, "_root"),"TextboxView1",_ref.getField(false, "_textboxview1"),"TextboxView2",_ref.getField(false, "_textboxview2"),"xui",_ref.getField(false, "_xui")};
 }
 }

@@ -8,7 +8,7 @@ public class b4xpages_subs_0 {
 
 public static RemoteObject  _addmenuitem(RemoteObject _ba,RemoteObject _b4xpage,RemoteObject _title) throws Exception{
 try {
-		Debug.PushSubsStack("AddMenuItem (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,91);
+		Debug.PushSubsStack("AddMenuItem (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,91);
 if (RapidSub.canDelegate("addmenuitem")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","addmenuitem", _ba, _b4xpage, _title);}
 ;
 Debug.locals.put("B4XPage", _b4xpage);
@@ -30,7 +30,7 @@ finally {
 		}}
 public static RemoteObject  _addpage(RemoteObject _ba,RemoteObject _id,RemoteObject _b4xpage) throws Exception{
 try {
-		Debug.PushSubsStack("AddPage (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,37);
+		Debug.PushSubsStack("AddPage (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,37);
 if (RapidSub.canDelegate("addpage")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","addpage", _ba, _id, _b4xpage);}
 ;
 Debug.locals.put("Id", _id);
@@ -52,7 +52,7 @@ finally {
 		}}
 public static RemoteObject  _addpageandcreate(RemoteObject _ba,RemoteObject _id,RemoteObject _b4xpage) throws Exception{
 try {
-		Debug.PushSubsStack("AddPageAndCreate (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,42);
+		Debug.PushSubsStack("AddPageAndCreate (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,42);
 if (RapidSub.canDelegate("addpageandcreate")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","addpageandcreate", _ba, _id, _b4xpage);}
 ;
 Debug.locals.put("Id", _id);
@@ -74,7 +74,7 @@ finally {
 		}}
 public static RemoteObject  _closepage(RemoteObject _ba,RemoteObject _b4xpage) throws Exception{
 try {
-		Debug.PushSubsStack("ClosePage (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,62);
+		Debug.PushSubsStack("ClosePage (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,62);
 if (RapidSub.canDelegate("closepage")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","closepage", _ba, _b4xpage);}
 ;
 Debug.locals.put("B4XPage", _b4xpage);
@@ -95,7 +95,7 @@ finally {
 		}}
 public static RemoteObject  _getmanager(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("GetManager (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,14);
+		Debug.PushSubsStack("GetManager (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,14);
 if (RapidSub.canDelegate("getmanager")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","getmanager", _ba);}
 ;
  BA.debugLineNum = 14;BA.debugLine="Public Sub GetManager As B4XPagesManager";
@@ -115,7 +115,7 @@ finally {
 		}}
 public static RemoteObject  _getnativeparent(RemoteObject _ba,RemoteObject _b4xpage) throws Exception{
 try {
-		Debug.PushSubsStack("GetNativeParent (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,79);
+		Debug.PushSubsStack("GetNativeParent (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,79);
 if (RapidSub.canDelegate("getnativeparent")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","getnativeparent", _ba, _b4xpage);}
 ;
 Debug.locals.put("B4XPage", _b4xpage);
@@ -136,7 +136,7 @@ finally {
 		}}
 public static RemoteObject  _getpage(RemoteObject _ba,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("GetPage (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,27);
+		Debug.PushSubsStack("GetPage (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,27);
 if (RapidSub.canDelegate("getpage")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","getpage", _ba, _id);}
 ;
 Debug.locals.put("Id", _id);
@@ -157,7 +157,7 @@ finally {
 		}}
 public static RemoteObject  _getpageid(RemoteObject _ba,RemoteObject _b4xpage) throws Exception{
 try {
-		Debug.PushSubsStack("GetPageId (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,32);
+		Debug.PushSubsStack("GetPageId (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,32);
 if (RapidSub.canDelegate("getpageid")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","getpageid", _ba, _b4xpage);}
 ;
 Debug.locals.put("B4XPage", _b4xpage);
@@ -178,7 +178,7 @@ finally {
 		}}
 public static RemoteObject  _internalsetpagesmanager(RemoteObject _ba,RemoteObject _pm) throws Exception{
 try {
-		Debug.PushSubsStack("InternalSetPagesManager (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,19);
+		Debug.PushSubsStack("InternalSetPagesManager (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,19);
 if (RapidSub.canDelegate("internalsetpagesmanager")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","internalsetpagesmanager", _ba, _pm);}
 ;
 Debug.locals.put("PM", _pm);
@@ -202,7 +202,7 @@ finally {
 		}}
 public static RemoteObject  _isinitialized(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("IsInitialized (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,9);
+		Debug.PushSubsStack("IsInitialized (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,9);
 if (RapidSub.canDelegate("isinitialized")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","isinitialized", _ba);}
 ;
  BA.debugLineNum = 9;BA.debugLine="Public Sub IsInitialized As Boolean";
@@ -222,7 +222,7 @@ finally {
 		}}
 public static RemoteObject  _mainpage(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("MainPage (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,73);
+		Debug.PushSubsStack("MainPage (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,73);
 if (RapidSub.canDelegate("mainpage")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","mainpage", _ba);}
 ;
  BA.debugLineNum = 73;BA.debugLine="Public Sub MainPage As B4XMainPage";
@@ -253,7 +253,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _settitle(RemoteObject _ba,RemoteObject _b4xpage,RemoteObject _title) throws Exception{
 try {
-		Debug.PushSubsStack("SetTitle (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,68);
+		Debug.PushSubsStack("SetTitle (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,68);
 if (RapidSub.canDelegate("settitle")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","settitle", _ba, _b4xpage, _title);}
 ;
 Debug.locals.put("B4XPage", _b4xpage);
@@ -275,7 +275,7 @@ finally {
 		}}
 public static RemoteObject  _showpage(RemoteObject _ba,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("ShowPage (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,50);
+		Debug.PushSubsStack("ShowPage (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,50);
 if (RapidSub.canDelegate("showpage")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","showpage", _ba, _id);}
 ;
 Debug.locals.put("Id", _id);
@@ -296,7 +296,7 @@ finally {
 		}}
 public static RemoteObject  _showpageandremovepreviouspages(RemoteObject _ba,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("ShowPageAndRemovePreviousPages (b4xpages) ","b4xpages",3,_ba,b4xpages.mostCurrent,56);
+		Debug.PushSubsStack("ShowPageAndRemovePreviousPages (b4xpages) ","b4xpages",4,_ba,b4xpages.mostCurrent,56);
 if (RapidSub.canDelegate("showpageandremovepreviouspages")) { return b4a.example.b4xpages.remoteMe.runUserSub(false, "b4xpages","showpageandremovepreviouspages", _ba, _id);}
 ;
 Debug.locals.put("Id", _id);

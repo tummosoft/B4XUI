@@ -8,7 +8,7 @@ public class b4xcollections_subs_0 {
 
 public static RemoteObject  _createbitset(RemoteObject _ba,RemoteObject _size) throws Exception{
 try {
-		Debug.PushSubsStack("CreateBitSet (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,53);
+		Debug.PushSubsStack("CreateBitSet (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,53);
 if (RapidSub.canDelegate("createbitset")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createbitset", _ba, _size);}
 RemoteObject _s = RemoteObject.declareNull("b4a.example.b4xbitset");
 ;
@@ -36,7 +36,7 @@ finally {
 		}}
 public static RemoteObject  _createlist(RemoteObject _ba,RemoteObject _items) throws Exception{
 try {
-		Debug.PushSubsStack("CreateList (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,104);
+		Debug.PushSubsStack("CreateList (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,104);
 if (RapidSub.canDelegate("createlist")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createlist", _ba, _items);}
 RemoteObject _res = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 ;
@@ -68,7 +68,7 @@ finally {
 		}}
 public static RemoteObject  _createorderedmap(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("CreateOrderedMap (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,31);
+		Debug.PushSubsStack("CreateOrderedMap (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,31);
 if (RapidSub.canDelegate("createorderedmap")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createorderedmap", _ba);}
 ;
  BA.debugLineNum = 31;BA.debugLine="Public Sub CreateOrderedMap As B4XOrderedMap";
@@ -88,7 +88,7 @@ finally {
 		}}
 public static RemoteObject  _createorderedmap2(RemoteObject _ba,RemoteObject _keys,RemoteObject _values) throws Exception{
 try {
-		Debug.PushSubsStack("CreateOrderedMap2 (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,39);
+		Debug.PushSubsStack("CreateOrderedMap2 (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,39);
 if (RapidSub.canDelegate("createorderedmap2")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createorderedmap2", _ba, _keys, _values);}
 RemoteObject _m = RemoteObject.declareNull("b4a.example.b4xorderedmap");
 int _i = 0;
@@ -136,7 +136,7 @@ finally {
 		}}
 public static RemoteObject  _createset(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("CreateSet (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,10);
+		Debug.PushSubsStack("CreateSet (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,10);
 if (RapidSub.canDelegate("createset")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createset", _ba);}
 ;
  BA.debugLineNum = 10;BA.debugLine="Public Sub CreateSet As B4XSet";
@@ -156,7 +156,7 @@ finally {
 		}}
 public static RemoteObject  _createset2(RemoteObject _ba,RemoteObject _values) throws Exception{
 try {
-		Debug.PushSubsStack("CreateSet2 (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,17);
+		Debug.PushSubsStack("CreateSet2 (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,17);
 if (RapidSub.canDelegate("createset2")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","createset2", _ba, _values);}
 RemoteObject _s = RemoteObject.declareNull("b4a.example.b4xset");
 RemoteObject _v = RemoteObject.declareNull("Object");
@@ -205,7 +205,7 @@ finally {
 		}}
 public static RemoteObject  _getemptylist(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("GetEmptyList (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,69);
+		Debug.PushSubsStack("GetEmptyList (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,69);
 if (RapidSub.canDelegate("getemptylist")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","getemptylist", _ba);}
 ;
  BA.debugLineNum = 69;BA.debugLine="Public Sub GetEmptyList As List";
@@ -235,7 +235,7 @@ finally {
 		}}
 public static RemoteObject  _getemptymap(RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("GetEmptyMap (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,60);
+		Debug.PushSubsStack("GetEmptyMap (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,60);
 if (RapidSub.canDelegate("getemptymap")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","getemptymap", _ba);}
 ;
  BA.debugLineNum = 60;BA.debugLine="Public Sub GetEmptyMap As Map";
@@ -265,7 +265,7 @@ finally {
 		}}
 public static RemoteObject  _mergelists(RemoteObject _ba,RemoteObject _list1,RemoteObject _list2) throws Exception{
 try {
-		Debug.PushSubsStack("MergeLists (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,95);
+		Debug.PushSubsStack("MergeLists (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,95);
 if (RapidSub.canDelegate("mergelists")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","mergelists", _ba, _list1, _list2);}
 RemoteObject _res = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 ;
@@ -302,7 +302,7 @@ finally {
 		}}
 public static RemoteObject  _mergemaps(RemoteObject _ba,RemoteObject _map1,RemoteObject _map2) throws Exception{
 try {
-		Debug.PushSubsStack("MergeMaps (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,78);
+		Debug.PushSubsStack("MergeMaps (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,78);
 if (RapidSub.canDelegate("mergemaps")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","mergemaps", _ba, _map1, _map2);}
 RemoteObject _res = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.Map");
 RemoteObject _key = RemoteObject.declareNull("Object");
@@ -381,7 +381,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _shufflelist(RemoteObject _ba,RemoteObject _items) throws Exception{
 try {
-		Debug.PushSubsStack("ShuffleList (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,112);
+		Debug.PushSubsStack("ShuffleList (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,112);
 if (RapidSub.canDelegate("shufflelist")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","shufflelist", _ba, _items);}
 RemoteObject _n = RemoteObject.createImmutable(0);
 int _i = 0;
@@ -429,7 +429,7 @@ finally {
 		}}
 public static RemoteObject  _sublist(RemoteObject _ba,RemoteObject _items,RemoteObject _startindex,RemoteObject _endindex) throws Exception{
 try {
-		Debug.PushSubsStack("SubList (b4xcollections) ","b4xcollections",7,_ba,b4xcollections.mostCurrent,123);
+		Debug.PushSubsStack("SubList (b4xcollections) ","b4xcollections",8,_ba,b4xcollections.mostCurrent,123);
 if (RapidSub.canDelegate("sublist")) { return b4a.example.b4xcollections.remoteMe.runUserSub(false, "b4xcollections","sublist", _ba, _items, _startindex, _endindex);}
 RemoteObject _res = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 int _i = 0;

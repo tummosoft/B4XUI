@@ -17,7 +17,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _clear(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Clear (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,26);
+		Debug.PushSubsStack("Clear (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,26);
 if (RapidSub.canDelegate("clear")) { return __ref.runUserSub(false, "b4xorderedmap","clear", __ref);}
  BA.debugLineNum = 26;BA.debugLine="Public Sub Clear";
 Debug.JustUpdateDeviceLine();
@@ -39,7 +39,7 @@ finally {
 		}}
 public static RemoteObject  _containskey(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("ContainsKey (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,46);
+		Debug.PushSubsStack("ContainsKey (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,46);
 if (RapidSub.canDelegate("containskey")) { return __ref.runUserSub(false, "b4xorderedmap","containskey", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 46;BA.debugLine="Public Sub ContainsKey (Key As Object) As Boolean";
@@ -59,7 +59,7 @@ finally {
 		}}
 public static RemoteObject  _get(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Get (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,37);
+		Debug.PushSubsStack("Get (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,37);
 if (RapidSub.canDelegate("get")) { return __ref.runUserSub(false, "b4xorderedmap","get", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 37;BA.debugLine="Public Sub Get (Key As Object) As Object";
@@ -79,7 +79,7 @@ finally {
 		}}
 public static RemoteObject  _getdataforserializator(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("GetDataForSerializator (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,65);
+		Debug.PushSubsStack("GetDataForSerializator (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,65);
 if (RapidSub.canDelegate("getdataforserializator")) { return __ref.runUserSub(false, "b4xorderedmap","getdataforserializator", __ref);}
  BA.debugLineNum = 65;BA.debugLine="Public Sub GetDataForSerializator As Object";
 Debug.JustUpdateDeviceLine();
@@ -98,7 +98,7 @@ finally {
 		}}
 public static RemoteObject  _getdefault(RemoteObject __ref,RemoteObject _key,RemoteObject _defaultvalue) throws Exception{
 try {
-		Debug.PushSubsStack("GetDefault (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,42);
+		Debug.PushSubsStack("GetDefault (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,42);
 if (RapidSub.canDelegate("getdefault")) { return __ref.runUserSub(false, "b4xorderedmap","getdefault", __ref, _key, _defaultvalue);}
 Debug.locals.put("Key", _key);
 Debug.locals.put("DefaultValue", _defaultvalue);
@@ -119,7 +119,7 @@ finally {
 		}}
 public static RemoteObject  _getkeys(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getKeys (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,32);
+		Debug.PushSubsStack("getKeys (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,32);
 if (RapidSub.canDelegate("getkeys")) { return __ref.runUserSub(false, "b4xorderedmap","getkeys", __ref);}
  BA.debugLineNum = 32;BA.debugLine="Public Sub getKeys As List";
 Debug.JustUpdateDeviceLine();
@@ -138,7 +138,7 @@ finally {
 		}}
 public static RemoteObject  _getsize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getSize (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,50);
+		Debug.PushSubsStack("getSize (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,50);
 if (RapidSub.canDelegate("getsize")) { return __ref.runUserSub(false, "b4xorderedmap","getsize", __ref);}
  BA.debugLineNum = 50;BA.debugLine="Public Sub getSize As Int";
 Debug.JustUpdateDeviceLine();
@@ -157,7 +157,7 @@ finally {
 		}}
 public static RemoteObject  _getvalues(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getValues (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,55);
+		Debug.PushSubsStack("getValues (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,55);
 if (RapidSub.canDelegate("getvalues")) { return __ref.runUserSub(false, "b4xorderedmap","getvalues", __ref);}
 RemoteObject _res = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 RemoteObject _key = RemoteObject.declareNull("Object");
@@ -200,7 +200,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,6);
+		Debug.PushSubsStack("Initialize (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,6);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xorderedmap","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -224,7 +224,7 @@ finally {
 		}}
 public static RemoteObject  _put(RemoteObject __ref,RemoteObject _key,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Put (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,12);
+		Debug.PushSubsStack("Put (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,12);
 if (RapidSub.canDelegate("put")) { return __ref.runUserSub(false, "b4xorderedmap","put", __ref, _key, _value);}
 Debug.locals.put("Key", _key);
 Debug.locals.put("Value", _value);
@@ -252,7 +252,7 @@ finally {
 		}}
 public static RemoteObject  _remove(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Remove (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,20);
+		Debug.PushSubsStack("Remove (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,20);
 if (RapidSub.canDelegate("remove")) { return __ref.runUserSub(false, "b4xorderedmap","remove", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 20;BA.debugLine="Public Sub Remove (Key As Object)";
@@ -279,7 +279,7 @@ finally {
 		}}
 public static RemoteObject  _setdatafromserializator(RemoteObject __ref,RemoteObject _data) throws Exception{
 try {
-		Debug.PushSubsStack("SetDataFromSerializator (b4xorderedmap) ","b4xorderedmap",9,__ref.getField(false, "ba"),__ref,70);
+		Debug.PushSubsStack("SetDataFromSerializator (b4xorderedmap) ","b4xorderedmap",10,__ref.getField(false, "ba"),__ref,70);
 if (RapidSub.canDelegate("setdatafromserializator")) { return __ref.runUserSub(false, "b4xorderedmap","setdatafromserializator", __ref, _data);}
 RemoteObject _o = null;
 Debug.locals.put("Data", _data);

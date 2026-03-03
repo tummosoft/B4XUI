@@ -8,7 +8,7 @@ public class b4xset_subs_0 {
 
 public static RemoteObject  _add(RemoteObject __ref,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Add (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,9);
+		Debug.PushSubsStack("Add (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,9);
 if (RapidSub.canDelegate("add")) { return __ref.runUserSub(false, "b4xset","add", __ref, _value);}
 Debug.locals.put("Value", _value);
  BA.debugLineNum = 9;BA.debugLine="Public Sub Add(Value As Object)";
@@ -28,7 +28,7 @@ finally {
 		}}
 public static RemoteObject  _aslist(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("AsList (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,29);
+		Debug.PushSubsStack("AsList (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,29);
 if (RapidSub.canDelegate("aslist")) { return __ref.runUserSub(false, "b4xset","aslist", __ref);}
  BA.debugLineNum = 29;BA.debugLine="Public Sub AsList As List";
 Debug.JustUpdateDeviceLine();
@@ -54,7 +54,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _clear(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Clear (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,25);
+		Debug.PushSubsStack("Clear (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,25);
 if (RapidSub.canDelegate("clear")) { return __ref.runUserSub(false, "b4xset","clear", __ref);}
  BA.debugLineNum = 25;BA.debugLine="Public Sub Clear";
 Debug.JustUpdateDeviceLine();
@@ -73,7 +73,7 @@ finally {
 		}}
 public static RemoteObject  _contains(RemoteObject __ref,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Contains (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,17);
+		Debug.PushSubsStack("Contains (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,17);
 if (RapidSub.canDelegate("contains")) { return __ref.runUserSub(false, "b4xset","contains", __ref, _value);}
 Debug.locals.put("Value", _value);
  BA.debugLineNum = 17;BA.debugLine="Public Sub Contains (Value As Object) As Boolean";
@@ -93,7 +93,7 @@ finally {
 		}}
 public static RemoteObject  _getsize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getSize (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,21);
+		Debug.PushSubsStack("getSize (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,21);
 if (RapidSub.canDelegate("getsize")) { return __ref.runUserSub(false, "b4xset","getsize", __ref);}
  BA.debugLineNum = 21;BA.debugLine="Public Sub getSize As Int";
 Debug.JustUpdateDeviceLine();
@@ -112,7 +112,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,5);
+		Debug.PushSubsStack("Initialize (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,5);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xset","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -133,7 +133,7 @@ finally {
 		}}
 public static RemoteObject  _remove(RemoteObject __ref,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Remove (b4xset) ","b4xset",10,__ref.getField(false, "ba"),__ref,13);
+		Debug.PushSubsStack("Remove (b4xset) ","b4xset",11,__ref.getField(false, "ba"),__ref,13);
 if (RapidSub.canDelegate("remove")) { return __ref.runUserSub(false, "b4xset","remove", __ref, _value);}
 Debug.locals.put("Value", _value);
  BA.debugLineNum = 13;BA.debugLine="Public Sub Remove(Value As Object)";

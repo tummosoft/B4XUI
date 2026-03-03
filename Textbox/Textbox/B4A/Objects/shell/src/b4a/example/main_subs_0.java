@@ -173,6 +173,7 @@ b4xcollections_subs_0._process_globals();
 main.myClass = BA.getDeviceClass ("b4a.example.main");
 b4xmainpage.myClass = BA.getDeviceClass ("b4a.example.b4xmainpage");
 starter.myClass = BA.getDeviceClass ("b4a.example.starter");
+textboxview.myClass = BA.getDeviceClass ("b4a.example.textboxview");
 b4xpages.myClass = BA.getDeviceClass ("b4a.example.b4xpages");
 b4xbitset.myClass = BA.getDeviceClass ("b4a.example.b4xbitset");
 b4xbytesbuilder.myClass = BA.getDeviceClass ("b4a.example.b4xbytesbuilder");

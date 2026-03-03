@@ -40,13 +40,13 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "activity_actionbarhomeclick", true))
 	 {return ((String) Debug.delegate(ba, "activity_actionbarhomeclick", null));}
-RDebugUtils.currentLine=9502720;
- //BA.debugLineNum = 9502720;BA.debugLine="Public Sub Activity_ActionBarHomeClick";
-RDebugUtils.currentLine=9502721;
- //BA.debugLineNum = 9502721;BA.debugLine="B4XPages.GetManager.Activity_ActionBarHomeClick";
+RDebugUtils.currentLine=9568256;
+ //BA.debugLineNum = 9568256;BA.debugLine="Public Sub Activity_ActionBarHomeClick";
+RDebugUtils.currentLine=9568257;
+ //BA.debugLineNum = 9568257;BA.debugLine="B4XPages.GetManager.Activity_ActionBarHomeClick";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._activity_actionbarhomeclick /*String*/ (null);
-RDebugUtils.currentLine=9502722;
- //BA.debugLineNum = 9502722;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9568258;
+ //BA.debugLineNum = 9568258;BA.debugLine="End Sub";
 return "";
 }
 public boolean  _activity_keypress(b4a.example.b4xpagesdelegator __ref,int _keycode) throws Exception{
@@ -54,25 +54,25 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "activity_keypress", true))
 	 {return ((Boolean) Debug.delegate(ba, "activity_keypress", new Object[] {_keycode}));}
-RDebugUtils.currentLine=9371648;
- //BA.debugLineNum = 9371648;BA.debugLine="Public Sub Activity_KeyPress (KeyCode As Int) As B";
-RDebugUtils.currentLine=9371649;
- //BA.debugLineNum = 9371649;BA.debugLine="Return B4XPages.GetManager.Activity_KeyPress (Key";
+RDebugUtils.currentLine=9437184;
+ //BA.debugLineNum = 9437184;BA.debugLine="Public Sub Activity_KeyPress (KeyCode As Int) As B";
+RDebugUtils.currentLine=9437185;
+ //BA.debugLineNum = 9437185;BA.debugLine="Return B4XPages.GetManager.Activity_KeyPress (Key";
 if (true) return _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._activity_keypress /*boolean*/ (null,_keycode);
-RDebugUtils.currentLine=9371650;
- //BA.debugLineNum = 9371650;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9437186;
+ //BA.debugLineNum = 9437186;BA.debugLine="End Sub";
 return false;
 }
 public String  _activity_pause(b4a.example.b4xpagesdelegator __ref) throws Exception{
 __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
-RDebugUtils.currentLine=9764864;
- //BA.debugLineNum = 9764864;BA.debugLine="Public Sub Activity_Pause";
-RDebugUtils.currentLine=9764865;
- //BA.debugLineNum = 9764865;BA.debugLine="B4XPages.GetManager.Activity_Pause";
+RDebugUtils.currentLine=9830400;
+ //BA.debugLineNum = 9830400;BA.debugLine="Public Sub Activity_Pause";
+RDebugUtils.currentLine=9830401;
+ //BA.debugLineNum = 9830401;BA.debugLine="B4XPages.GetManager.Activity_Pause";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._activity_pause /*String*/ (null);
-RDebugUtils.currentLine=9764866;
- //BA.debugLineNum = 9764866;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9830402;
+ //BA.debugLineNum = 9830402;BA.debugLine="End Sub";
 return "";
 }
 public String  _activity_permissionresult(b4a.example.b4xpagesdelegator __ref,String _permission,boolean _result) throws Exception{
@@ -80,13 +80,13 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "activity_permissionresult", true))
 	 {return ((String) Debug.delegate(ba, "activity_permissionresult", new Object[] {_permission,_result}));}
-RDebugUtils.currentLine=9437184;
- //BA.debugLineNum = 9437184;BA.debugLine="Sub Activity_PermissionResult (Permission As Strin";
-RDebugUtils.currentLine=9437185;
- //BA.debugLineNum = 9437185;BA.debugLine="B4XPages.GetManager.RaiseEvent(B4XPages.GetManage";
+RDebugUtils.currentLine=9502720;
+ //BA.debugLineNum = 9502720;BA.debugLine="Sub Activity_PermissionResult (Permission As Strin";
+RDebugUtils.currentLine=9502721;
+ //BA.debugLineNum = 9502721;BA.debugLine="B4XPages.GetManager.RaiseEvent(B4XPages.GetManage";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._raiseevent /*String*/ (null,_b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._gettoppage /*b4a.example.b4xpagesmanager._b4xpageinfo*/ (null),"B4XPage_PermissionResult",new Object[]{(Object)(_permission),(Object)(_result)});
-RDebugUtils.currentLine=9437186;
- //BA.debugLineNum = 9437186;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9502722;
+ //BA.debugLineNum = 9502722;BA.debugLine="End Sub";
 return "";
 }
 public String  _activity_resume(b4a.example.b4xpagesdelegator __ref) throws Exception{
@@ -94,13 +94,13 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "activity_resume", true))
 	 {return ((String) Debug.delegate(ba, "activity_resume", null));}
-RDebugUtils.currentLine=9699328;
- //BA.debugLineNum = 9699328;BA.debugLine="Public Sub Activity_Resume";
-RDebugUtils.currentLine=9699329;
- //BA.debugLineNum = 9699329;BA.debugLine="B4XPages.GetManager.Activity_Resume";
+RDebugUtils.currentLine=9764864;
+ //BA.debugLineNum = 9764864;BA.debugLine="Public Sub Activity_Resume";
+RDebugUtils.currentLine=9764865;
+ //BA.debugLineNum = 9764865;BA.debugLine="B4XPages.GetManager.Activity_Resume";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._activity_resume /*String*/ (null);
-RDebugUtils.currentLine=9699330;
- //BA.debugLineNum = 9699330;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9764866;
+ //BA.debugLineNum = 9764866;BA.debugLine="End Sub";
 return "";
 }
 public String  _create_menu(b4a.example.b4xpagesdelegator __ref,Object _menu) throws Exception{
@@ -108,13 +108,13 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "create_menu", true))
 	 {return ((String) Debug.delegate(ba, "create_menu", new Object[] {_menu}));}
-RDebugUtils.currentLine=9568256;
- //BA.debugLineNum = 9568256;BA.debugLine="Public Sub Create_Menu (Menu As Object)";
-RDebugUtils.currentLine=9568257;
- //BA.debugLineNum = 9568257;BA.debugLine="B4XPages.GetManager.CreateMenu(Menu)";
+RDebugUtils.currentLine=9633792;
+ //BA.debugLineNum = 9633792;BA.debugLine="Public Sub Create_Menu (Menu As Object)";
+RDebugUtils.currentLine=9633793;
+ //BA.debugLineNum = 9633793;BA.debugLine="B4XPages.GetManager.CreateMenu(Menu)";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._createmenu /*String*/ (null,_menu);
-RDebugUtils.currentLine=9568258;
- //BA.debugLineNum = 9568258;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9633794;
+ //BA.debugLineNum = 9633794;BA.debugLine="End Sub";
 return "";
 }
 public String  _initialize(b4a.example.b4xpagesdelegator __ref,anywheresoftware.b4a.BA _ba) throws Exception{
@@ -123,19 +123,19 @@ innerInitialize(_ba);
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "initialize", true))
 	 {return ((String) Debug.delegate(ba, "initialize", new Object[] {_ba}));}
-RDebugUtils.currentLine=9306112;
- //BA.debugLineNum = 9306112;BA.debugLine="Public Sub Initialize";
-RDebugUtils.currentLine=9306114;
- //BA.debugLineNum = 9306114;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9371648;
+ //BA.debugLineNum = 9371648;BA.debugLine="Public Sub Initialize";
+RDebugUtils.currentLine=9371650;
+ //BA.debugLineNum = 9371650;BA.debugLine="End Sub";
 return "";
 }
 public String  _class_globals(b4a.example.b4xpagesdelegator __ref) throws Exception{
 __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
-RDebugUtils.currentLine=9240576;
- //BA.debugLineNum = 9240576;BA.debugLine="Sub Class_Globals";
-RDebugUtils.currentLine=9240577;
- //BA.debugLineNum = 9240577;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9306112;
+ //BA.debugLineNum = 9306112;BA.debugLine="Sub Class_Globals";
+RDebugUtils.currentLine=9306113;
+ //BA.debugLineNum = 9306113;BA.debugLine="End Sub";
 return "";
 }
 public String  _mainform_resize(b4a.example.b4xpagesdelegator __ref,double _width,double _height) throws Exception{
@@ -143,13 +143,13 @@ __ref = this;
 RDebugUtils.currentModule="b4xpagesdelegator";
 if (Debug.shouldDelegate(ba, "mainform_resize", true))
 	 {return ((String) Debug.delegate(ba, "mainform_resize", new Object[] {_width,_height}));}
-RDebugUtils.currentLine=9633792;
- //BA.debugLineNum = 9633792;BA.debugLine="Public Sub MainForm_Resize(Width As Double, Height";
-RDebugUtils.currentLine=9633793;
- //BA.debugLineNum = 9633793;BA.debugLine="B4XPages.GetManager.MainForm_Resize(Width, Height";
+RDebugUtils.currentLine=9699328;
+ //BA.debugLineNum = 9699328;BA.debugLine="Public Sub MainForm_Resize(Width As Double, Height";
+RDebugUtils.currentLine=9699329;
+ //BA.debugLineNum = 9699329;BA.debugLine="B4XPages.GetManager.MainForm_Resize(Width, Height";
 _b4xpages._getmanager /*b4a.example.b4xpagesmanager*/ (getActivityBA())._mainform_resize /*String*/ (null,_width,_height);
-RDebugUtils.currentLine=9633794;
- //BA.debugLineNum = 9633794;BA.debugLine="End Sub";
+RDebugUtils.currentLine=9699330;
+ //BA.debugLineNum = 9699330;BA.debugLine="End Sub";
 return "";
 }
 }

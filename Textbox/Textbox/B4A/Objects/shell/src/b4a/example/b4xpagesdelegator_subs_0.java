@@ -8,7 +8,7 @@ public class b4xpagesdelegator_subs_0 {
 
 public static RemoteObject  _activity_actionbarhomeclick(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_ActionBarHomeClick (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,35);
+		Debug.PushSubsStack("Activity_ActionBarHomeClick (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,35);
 if (RapidSub.canDelegate("activity_actionbarhomeclick")) { return __ref.runUserSub(false, "b4xpagesdelegator","activity_actionbarhomeclick", __ref);}
  BA.debugLineNum = 35;BA.debugLine="Public Sub Activity_ActionBarHomeClick";
 Debug.JustUpdateDeviceLine();
@@ -27,7 +27,7 @@ finally {
 		}}
 public static RemoteObject  _activity_keypress(RemoteObject __ref,RemoteObject _keycode) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_KeyPress (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,27);
+		Debug.PushSubsStack("Activity_KeyPress (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,27);
 if (RapidSub.canDelegate("activity_keypress")) { return __ref.runUserSub(false, "b4xpagesdelegator","activity_keypress", __ref, _keycode);}
 Debug.locals.put("KeyCode", _keycode);
  BA.debugLineNum = 27;BA.debugLine="Public Sub Activity_KeyPress (KeyCode As Int) As B";
@@ -47,7 +47,7 @@ finally {
 		}}
 public static RemoteObject  _activity_pause(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Pause (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,52);
+		Debug.PushSubsStack("Activity_Pause (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,52);
 if (RapidSub.canDelegate("activity_pause")) { return __ref.runUserSub(false, "b4xpagesdelegator","activity_pause", __ref);}
  BA.debugLineNum = 52;BA.debugLine="Public Sub Activity_Pause";
 Debug.JustUpdateDeviceLine();
@@ -66,7 +66,7 @@ finally {
 		}}
 public static RemoteObject  _activity_permissionresult(RemoteObject __ref,RemoteObject _permission,RemoteObject _result) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_PermissionResult (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,31);
+		Debug.PushSubsStack("Activity_PermissionResult (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,31);
 if (RapidSub.canDelegate("activity_permissionresult")) { return __ref.runUserSub(false, "b4xpagesdelegator","activity_permissionresult", __ref, _permission, _result);}
 Debug.locals.put("Permission", _permission);
 Debug.locals.put("Result", _result);
@@ -87,7 +87,7 @@ finally {
 		}}
 public static RemoteObject  _activity_resume(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Activity_Resume (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,48);
+		Debug.PushSubsStack("Activity_Resume (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,48);
 if (RapidSub.canDelegate("activity_resume")) { return __ref.runUserSub(false, "b4xpagesdelegator","activity_resume", __ref);}
  BA.debugLineNum = 48;BA.debugLine="Public Sub Activity_Resume";
 Debug.JustUpdateDeviceLine();
@@ -111,7 +111,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _create_menu(RemoteObject __ref,RemoteObject _menu) throws Exception{
 try {
-		Debug.PushSubsStack("Create_Menu (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,39);
+		Debug.PushSubsStack("Create_Menu (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,39);
 if (RapidSub.canDelegate("create_menu")) { return __ref.runUserSub(false, "b4xpagesdelegator","create_menu", __ref, _menu);}
 Debug.locals.put("Menu", _menu);
  BA.debugLineNum = 39;BA.debugLine="Public Sub Create_Menu (Menu As Object)";
@@ -131,7 +131,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,4);
+		Debug.PushSubsStack("Initialize (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,4);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xpagesdelegator","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -149,7 +149,7 @@ finally {
 		}}
 public static RemoteObject  _mainform_resize(RemoteObject __ref,RemoteObject _width,RemoteObject _height) throws Exception{
 try {
-		Debug.PushSubsStack("MainForm_Resize (b4xpagesdelegator) ","b4xpagesdelegator",13,__ref.getField(false, "ba"),__ref,44);
+		Debug.PushSubsStack("MainForm_Resize (b4xpagesdelegator) ","b4xpagesdelegator",14,__ref.getField(false, "ba"),__ref,44);
 if (RapidSub.canDelegate("mainform_resize")) { return __ref.runUserSub(false, "b4xpagesdelegator","mainform_resize", __ref, _width, _height);}
 Debug.locals.put("Width", _width);
 Debug.locals.put("Height", _height);

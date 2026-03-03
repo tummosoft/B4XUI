@@ -17,7 +17,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _clear(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Clear (b4xbitset) ","b4xbitset",4,__ref.getField(false, "ba"),__ref,54);
+		Debug.PushSubsStack("Clear (b4xbitset) ","b4xbitset",5,__ref.getField(false, "ba"),__ref,54);
 if (RapidSub.canDelegate("clear")) { return __ref.runUserSub(false, "b4xbitset","clear", __ref);}
  BA.debugLineNum = 54;BA.debugLine="Public Sub Clear";
 Debug.JustUpdateDeviceLine();
@@ -36,7 +36,7 @@ finally {
 		}}
 public static RemoteObject  _get(RemoteObject __ref,RemoteObject _index) throws Exception{
 try {
-		Debug.PushSubsStack("Get (b4xbitset) ","b4xbitset",4,__ref.getField(false, "ba"),__ref,38);
+		Debug.PushSubsStack("Get (b4xbitset) ","b4xbitset",5,__ref.getField(false, "ba"),__ref,38);
 if (RapidSub.canDelegate("get")) { return __ref.runUserSub(false, "b4xbitset","get", __ref, _index);}
 RemoteObject _dindex = RemoteObject.createImmutable(0);
 RemoteObject _offset = RemoteObject.createImmutable(0);
@@ -68,7 +68,7 @@ finally {
 		}}
 public static RemoteObject  _getsize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getSize (b4xbitset) ","b4xbitset",4,__ref.getField(false, "ba"),__ref,49);
+		Debug.PushSubsStack("getSize (b4xbitset) ","b4xbitset",5,__ref.getField(false, "ba"),__ref,49);
 if (RapidSub.canDelegate("getsize")) { return __ref.runUserSub(false, "b4xbitset","getsize", __ref);}
  BA.debugLineNum = 49;BA.debugLine="Public Sub getSize As Int";
 Debug.JustUpdateDeviceLine();
@@ -87,7 +87,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba,RemoteObject _size) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xbitset) ","b4xbitset",4,__ref.getField(false, "ba"),__ref,10);
+		Debug.PushSubsStack("Initialize (b4xbitset) ","b4xbitset",5,__ref.getField(false, "ba"),__ref,10);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xbitset","initialize", __ref, _ba, _size);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -112,7 +112,7 @@ finally {
 		}}
 public static RemoteObject  _set(RemoteObject __ref,RemoteObject _index,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Set (b4xbitset) ","b4xbitset",4,__ref.getField(false, "ba"),__ref,16);
+		Debug.PushSubsStack("Set (b4xbitset) ","b4xbitset",5,__ref.getField(false, "ba"),__ref,16);
 if (RapidSub.canDelegate("set")) { return __ref.runUserSub(false, "b4xbitset","set", __ref, _index, _value);}
 RemoteObject _dindex = RemoteObject.createImmutable(0);
 RemoteObject _offset = RemoteObject.createImmutable(0);

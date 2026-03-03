@@ -10,7 +10,7 @@ Version=13.4
 #DesignerProperty: Key: Color, DisplayName: Background Color, FieldType: Color, DefaultValue: 0xFFFFFFFF, Description: Background Color
 
 Sub Class_Globals
-	Type clsNaviButton(Font As Typeface, Icon As String, Text As String, Badge as string)
+	Type clsNaviButton(Font As Typeface, Icon As String, Text As String, Badge As String)
 	Private mEventName As String 'ignore
 	Private mCallBack As Object 'ignore
 	Public mBase As B4XView

@@ -23,7 +23,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _containskey(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("ContainsKey (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,66);
+		Debug.PushSubsStack("ContainsKey (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,66);
 if (RapidSub.canDelegate("containskey")) { return __ref.runUserSub(false, "b4xcache","containskey", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 66;BA.debugLine="Public Sub ContainsKey(Key As String) As Boolean";
@@ -43,7 +43,7 @@ finally {
 		}}
 public static RemoteObject  _createb4xcacheitem(RemoteObject __ref,RemoteObject _value,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("CreateB4XCacheItem (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,102);
+		Debug.PushSubsStack("CreateB4XCacheItem (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,102);
 if (RapidSub.canDelegate("createb4xcacheitem")) { return __ref.runUserSub(false, "b4xcache","createb4xcacheitem", __ref, _value, _key);}
 RemoteObject _t1 = RemoteObject.declareNull("b4a.example.b4xcache._b4xcacheitem");
 Debug.locals.put("Value", _value);
@@ -80,7 +80,7 @@ finally {
 		}}
 public static RemoteObject  _get(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Get (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,24);
+		Debug.PushSubsStack("Get (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,24);
 if (RapidSub.canDelegate("get")) { return __ref.runUserSub(false, "b4xcache","get", __ref, _key);}
 RemoteObject _ci = RemoteObject.declareNull("b4a.example.b4xcache._b4xcacheitem");
 Debug.locals.put("Key", _key);
@@ -115,7 +115,7 @@ finally {
 		}}
 public static RemoteObject  _getmaxsize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getMaxSize (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,19);
+		Debug.PushSubsStack("getMaxSize (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,19);
 if (RapidSub.canDelegate("getmaxsize")) { return __ref.runUserSub(false, "b4xcache","getmaxsize", __ref);}
  BA.debugLineNum = 19;BA.debugLine="Public Sub getMaxSize As Int";
 Debug.JustUpdateDeviceLine();
@@ -134,7 +134,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,9);
+		Debug.PushSubsStack("Initialize (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,9);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "b4xcache","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -155,7 +155,7 @@ finally {
 		}}
 public static RemoteObject  _iseternal(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("IsEternal (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,60);
+		Debug.PushSubsStack("IsEternal (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,60);
 if (RapidSub.canDelegate("iseternal")) { return __ref.runUserSub(false, "b4xcache","iseternal", __ref, _key);}
 RemoteObject _ci = RemoteObject.declareNull("b4a.example.b4xcache._b4xcacheitem");
 Debug.locals.put("Key", _key);
@@ -179,7 +179,7 @@ finally {
 		}}
 public static RemoteObject  _keys(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Keys (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,98);
+		Debug.PushSubsStack("Keys (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,98);
 if (RapidSub.canDelegate("keys")) { return __ref.runUserSub(false, "b4xcache","keys", __ref);}
  BA.debugLineNum = 98;BA.debugLine="Public Sub Keys As List";
 Debug.JustUpdateDeviceLine();
@@ -198,7 +198,7 @@ finally {
 		}}
 public static RemoteObject  _put(RemoteObject __ref,RemoteObject _key,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Put (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,35);
+		Debug.PushSubsStack("Put (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,35);
 if (RapidSub.canDelegate("put")) { return __ref.runUserSub(false, "b4xcache","put", __ref, _key, _value);}
 Debug.locals.put("Key", _key);
 Debug.locals.put("Value", _value);
@@ -229,7 +229,7 @@ finally {
 		}}
 public static RemoteObject  _puteternal(RemoteObject __ref,RemoteObject _key,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("PutEternal (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,44);
+		Debug.PushSubsStack("PutEternal (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,44);
 if (RapidSub.canDelegate("puteternal")) { return __ref.runUserSub(false, "b4xcache","puteternal", __ref, _key, _value);}
 RemoteObject _ci = RemoteObject.declareNull("b4a.example.b4xcache._b4xcacheitem");
 Debug.locals.put("Key", _key);
@@ -270,7 +270,7 @@ finally {
 		}}
 public static RemoteObject  _remove(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Remove (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,55);
+		Debug.PushSubsStack("Remove (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,55);
 if (RapidSub.canDelegate("remove")) { return __ref.runUserSub(false, "b4xcache","remove", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 55;BA.debugLine="Public Sub Remove (Key As String)";
@@ -294,7 +294,7 @@ finally {
 		}}
 public static RemoteObject  _removeolditems(RemoteObject __ref,RemoteObject _agems) throws Exception{
 try {
-		Debug.PushSubsStack("RemoveOldItems (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,82);
+		Debug.PushSubsStack("RemoveOldItems (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,82);
 if (RapidSub.canDelegate("removeolditems")) { return __ref.runUserSub(false, "b4xcache","removeolditems", __ref, _agems);}
 RemoteObject _values = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 RemoteObject _level = RemoteObject.createImmutable(0L);
@@ -341,7 +341,7 @@ finally {
 		}}
 public static RemoteObject  _setmaxsize(RemoteObject __ref,RemoteObject _s) throws Exception{
 try {
-		Debug.PushSubsStack("setMaxSize (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,14);
+		Debug.PushSubsStack("setMaxSize (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,14);
 if (RapidSub.canDelegate("setmaxsize")) { return __ref.runUserSub(false, "b4xcache","setmaxsize", __ref, _s);}
 Debug.locals.put("s", _s);
  BA.debugLineNum = 14;BA.debugLine="Public Sub setMaxSize(s As Int)";
@@ -364,7 +364,7 @@ finally {
 		}}
 public static RemoteObject  _size(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Size (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,93);
+		Debug.PushSubsStack("Size (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,93);
 if (RapidSub.canDelegate("size")) { return __ref.runUserSub(false, "b4xcache","size", __ref);}
  BA.debugLineNum = 93;BA.debugLine="Public Sub Size As Int";
 Debug.JustUpdateDeviceLine();
@@ -383,7 +383,7 @@ finally {
 		}}
 public static RemoteObject  _trimifoversize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("TrimIfOversize (b4xcache) ","b4xcache",6,__ref.getField(false, "ba"),__ref,70);
+		Debug.PushSubsStack("TrimIfOversize (b4xcache) ","b4xcache",7,__ref.getField(false, "ba"),__ref,70);
 if (RapidSub.canDelegate("trimifoversize")) { return __ref.runUserSub(false, "b4xcache","trimifoversize", __ref);}
 RemoteObject _values = RemoteObject.declareNull("anywheresoftware.b4a.objects.collections.List");
 RemoteObject _numberofitemstoremove = RemoteObject.createImmutable(0);

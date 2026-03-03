@@ -13,6 +13,6 @@ ModuleClosedNodes1=1
 ModuleClosedNodes2=
 ModuleClosedNodes3=
 ModuleClosedNodes4=1
-NavigationStack=CheckBoxView,TextColor,107,0,CheckBoxView,getChecked,88,0,RadioButtonView,Base_Resize,26,0,RadioButtonView,TextSize,129,0,RadioButtonView,DrawCheckbox,64,0,B4XMainPage,Button1_Click,29,0,Visual Designer,MainPage.bal,-100,3,B4XMainPage,Class_Globals,13,0,B4XMainPage,B4XPage_Created,35,1,B4XMainPage,Initialize,21,0
+NavigationStack=CheckBoxView,getChecked,88,0,RadioButtonView,Base_Resize,26,0,RadioButtonView,TextSize,129,0,B4XMainPage,Button1_Click,29,0,Visual Designer,MainPage.bal,-100,3,B4XMainPage,Class_Globals,13,0,B4XMainPage,B4XPage_Created,35,1,B4XMainPage,Initialize,21,0,RadioButtonView,DrawCheckbox,66,0,CheckBoxView,imvCheckbox_Click,75,0,CheckBoxView,setDisabled,95,0
 SelectedBuild=0
 VisibleModules=1,2,3

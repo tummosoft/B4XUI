@@ -15,7 +15,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _clear(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("Clear (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,40);
+		Debug.PushSubsStack("Clear (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,40);
 if (RapidSub.canDelegate("clear")) { return __ref.runUserSub(false, "copyonwritemap","clear", __ref);}
  BA.debugLineNum = 40;BA.debugLine="Public Sub Clear";
 Debug.JustUpdateDeviceLine();
@@ -37,7 +37,7 @@ finally {
 		}}
 public static RemoteObject  _containskey(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("ContainsKey (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,49);
+		Debug.PushSubsStack("ContainsKey (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,49);
 if (RapidSub.canDelegate("containskey")) { return __ref.runUserSub(false, "copyonwritemap","containskey", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 49;BA.debugLine="Public Sub ContainsKey (Key As Object) As Boolean";
@@ -57,7 +57,7 @@ finally {
 		}}
 public static RemoteObject  _copymap(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("CopyMap (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,18);
+		Debug.PushSubsStack("CopyMap (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,18);
 if (RapidSub.canDelegate("copymap")) { return __ref.runUserSub(false, "copyonwritemap","copymap", __ref);}
  BA.debugLineNum = 18;BA.debugLine="Private Sub CopyMap";
 Debug.JustUpdateDeviceLine();
@@ -76,7 +76,7 @@ finally {
 		}}
 public static RemoteObject  _get(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Get (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,22);
+		Debug.PushSubsStack("Get (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,22);
 if (RapidSub.canDelegate("get")) { return __ref.runUserSub(false, "copyonwritemap","get", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 22;BA.debugLine="Public Sub Get (Key As Object) As Object";
@@ -96,7 +96,7 @@ finally {
 		}}
 public static RemoteObject  _getdefault(RemoteObject __ref,RemoteObject _key,RemoteObject _default) throws Exception{
 try {
-		Debug.PushSubsStack("GetDefault (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,26);
+		Debug.PushSubsStack("GetDefault (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,26);
 if (RapidSub.canDelegate("getdefault")) { return __ref.runUserSub(false, "copyonwritemap","getdefault", __ref, _key, _default);}
 Debug.locals.put("Key", _key);
 Debug.locals.put("Default", _default);
@@ -117,7 +117,7 @@ finally {
 		}}
 public static RemoteObject  _getmap(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("GetMap (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,54);
+		Debug.PushSubsStack("GetMap (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,54);
 if (RapidSub.canDelegate("getmap")) { return __ref.runUserSub(false, "copyonwritemap","getmap", __ref);}
  BA.debugLineNum = 54;BA.debugLine="Public Sub GetMap As Map";
 Debug.JustUpdateDeviceLine();
@@ -136,7 +136,7 @@ finally {
 		}}
 public static RemoteObject  _getsize(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("getSize (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,45);
+		Debug.PushSubsStack("getSize (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,45);
 if (RapidSub.canDelegate("getsize")) { return __ref.runUserSub(false, "copyonwritemap","getsize", __ref);}
  BA.debugLineNum = 45;BA.debugLine="Public Sub getSize As Int";
 Debug.JustUpdateDeviceLine();
@@ -155,7 +155,7 @@ finally {
 		}}
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba,RemoteObject _initialitems) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,14);
+		Debug.PushSubsStack("Initialize (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,14);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "copyonwritemap","initialize", __ref, _ba, _initialitems);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -177,7 +177,7 @@ finally {
 		}}
 public static RemoteObject  _put(RemoteObject __ref,RemoteObject _key,RemoteObject _value) throws Exception{
 try {
-		Debug.PushSubsStack("Put (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,30);
+		Debug.PushSubsStack("Put (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,30);
 if (RapidSub.canDelegate("put")) { return __ref.runUserSub(false, "copyonwritemap","put", __ref, _key, _value);}
 Debug.locals.put("Key", _key);
 Debug.locals.put("Value", _value);
@@ -201,7 +201,7 @@ finally {
 		}}
 public static RemoteObject  _remove(RemoteObject __ref,RemoteObject _key) throws Exception{
 try {
-		Debug.PushSubsStack("Remove (copyonwritemap) ","copyonwritemap",12,__ref.getField(false, "ba"),__ref,35);
+		Debug.PushSubsStack("Remove (copyonwritemap) ","copyonwritemap",13,__ref.getField(false, "ba"),__ref,35);
 if (RapidSub.canDelegate("remove")) { return __ref.runUserSub(false, "copyonwritemap","remove", __ref, _key);}
 Debug.locals.put("Key", _key);
  BA.debugLineNum = 35;BA.debugLine="Public Sub Remove (Key As Object)";
